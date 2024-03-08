@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+input, select, button {
+  margin: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+button:disabled {
+  background-color: #999;
+}
+
+button:hover:not(:disabled) {
+  background-color: #45a049;
+}
